@@ -9,7 +9,7 @@ router.get('/sedans', (req, res) => {
         const sedans = loadVehicles('sedans'); // Load sedan data
         res.json(sedans); // Return data including image_url
     } catch (error) {
-        console.error(`Error loading sedans: ${error.message}`); // Specific error log
+        console.error(`Error loading sedans: ${error.message}`);
         return res.status(500).json({ error: `Failed to load sedans data: ${error.message}` });
     }
 });
@@ -20,7 +20,7 @@ router.get('/suvs', (req, res) => {
         const suvs = loadVehicles('suvs'); // Load SUV data
         res.json(suvs); // Return data including image_url
     } catch (error) {
-        console.error(`Error loading suvs: ${error.message}`); // Specific error log
+        console.error(`Error loading suvs: ${error.message}`);
         return res.status(500).json({ error: `Failed to load suvs data: ${error.message}` });
     }
 });
@@ -31,7 +31,7 @@ router.get('/trucks', (req, res) => {
         const trucks = loadVehicles('trucks'); // Load truck data
         res.json(trucks); // Return data including image_url
     } catch (error) {
-        console.error(`Error loading trucks: ${error.message}`); // Specific error log
+        console.error(`Error loading trucks: ${error.message}`);
         return res.status(500).json({ error: `Failed to load trucks data: ${error.message}` });
     }
 });
@@ -45,7 +45,7 @@ router.post('/sedans', (req, res) => {
         saveVehicles('sedans', sedans); // Save data
         res.status(201).json(newSedan); // Success response
     } catch (error) {
-        console.error(`Error saving sedans: ${error.message}`); // Specific error log
+        console.error(`Error saving sedans: ${error.message}`);
         return res.status(500).json({ error: `Failed to save sedans data: ${error.message}` });
     }
 });
@@ -59,12 +59,14 @@ router.post('/suvs', (req, res) => {
         saveVehicles('suvs', suvs); // Save data
         res.status(201).json(newSuv); // Success response
     } catch (error) {
-        console.error(`Error saving suvs: ${error.message}`); // Specific error log
+        console.error(`Error saving suvs: ${error.message}`);
         return res.status(500).json({ error: `Failed to save suvs data: ${error.message}` });
     }
 });
 
 export default router;
+
+
 
 
 

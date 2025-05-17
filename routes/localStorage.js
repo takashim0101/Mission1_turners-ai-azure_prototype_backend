@@ -23,7 +23,7 @@ const loadVehicles = (vehicleType) => {
         
         // Update image URLs
         vehicles.forEach(vehicle => {
-            vehicle.image_url = BASE_URL + vehicle.image.replace(/\\/g, '/'); // Fix Windows path separators
+            vehicle.image_url = BASE_URL + vehicle.image.replace(/\\/g, '/').replace('classified_images/', ''); // Fix Windows path separators
         });
 
         return vehicles;
@@ -47,6 +47,8 @@ const saveVehicles = (vehicleType, vehicles) => {
 };
 
 export { loadVehicles, saveVehicles };
+
+
 
 
 

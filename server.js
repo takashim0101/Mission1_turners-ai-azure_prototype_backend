@@ -3,6 +3,11 @@ import express from 'express';
 import cors from 'cors';
 import vehiclesRouter from './routes/vehicles.js';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Get __dirname equivalent
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 dotenv.config(); // Load environment variables
 const app = express();
@@ -27,6 +32,7 @@ app.use('/api/vehicles', vehiclesRouter); // Mount vehiclesRouter
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
 
 
 
