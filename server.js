@@ -2,27 +2,32 @@ import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
 import vehiclesRouter from './routes/vehicles.js';
+import path from 'path';
 
-dotenv.config(); // 環境変数を読み込む
+dotenv.config(); // Load environment variables
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// CORS設定
+// CORS settings
 app.use(cors({
-    origin: "http://localhost:5173", // フロントエンドのURLに合わせて変更
+    origin: "http://localhost:5173", // Adjust to your frontend URL
 }));
 
-// JSONボディを解析するミドルウェア
-app.use(express.json()); // JSONデータの解析
-app.use(express.urlencoded({ extended: true })); // URLエンコードされたデータの解析
+// Serve static files
+app.use('/images', express.static(path.join(__dirname, 'classified_images'))); // Serve images
 
-// ルーターの設定
-app.use('/api/vehicles', vehiclesRouter); // vehiclesRouterをマウント
+// JSON body parser middleware
+app.use(express.json()); // Parse JSON data
+app.use(express.urlencoded({ extended: true })); // Parse URL-encoded data
 
-// サーバーの起動
+// Set up the router
+app.use('/api/vehicles', vehiclesRouter); // Mount vehiclesRouter
+
+// Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
 
 
 
