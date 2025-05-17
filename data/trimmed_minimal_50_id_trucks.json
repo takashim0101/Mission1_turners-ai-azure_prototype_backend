@@ -1,0 +1,252 @@
+[
+    {
+        "id": "00000001",
+        "image": "classified_images\\trucks\\GMC_Canyon_2010_23_16_180_29_4_67_65_nan_18_RWD_6_4_Pickup_Vvv.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000002",
+        "image": "classified_images\\trucks\\Toyota_Tundra_2015_35_18_310_46_8_79_76_228_14_4WD_6_4_Pickup_FpG.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000003",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2019_29_17_200_25_4_74_70_nan_20_RWD_5_4_Pickup_lKd.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000004",
+        "image": "classified_images\\trucks\\Ford_Ranger_2008_18_15_140_30_6_69_66_nan_16_RWD_3_2_Pickup_gIn.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000005",
+        "image": "classified_images\\trucks\\Chevrolet_Silverado 1500_2014_45_20_350_53_8_80_74_nan_16_RWD_5_4_Pickup_XxV.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000006",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2015_27_17_200_25_4_74_70_nan_20_RWD_5_4_Pickup_dbS.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000007",
+        "image": "classified_images\\trucks\\Ford_F-150_2011_26_17_300_37_6_79_74_nan_17_RWD_3_2_Pickup_Ugh.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000008",
+        "image": "classified_images\\trucks\\Ford_Ranger_2004_18_15_140_30_6_69_64_nan_18_RWD_5_2_Pickup_gri.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000009",
+        "image": "classified_images\\trucks\\Toyota_Tundra_2013_27_18_270_40_6_79_75_nan_16_RWD_6_4_Pickup_TWh.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000010",
+        "image": "classified_images\\trucks\\Ford_Ranger_2008_18_15_140_30_6_69_66_nan_16_RWD_3_2_Pickup_CrE.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000011",
+        "image": "classified_images\\trucks\\Ford_F-150_2015_26_17_280_35_6_79_75_209_18_RWD_3_2_Pickup_CMb.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000012",
+        "image": "classified_images\\trucks\\Chevrolet_Silverado 1500_2011_30_17_300_48_8_80_73_nan_14_RWD_6_4_Pickup_koH.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000013",
+        "image": "classified_images\\trucks\\Nissan_Titan_2017_52_20_390_56_8_80_75_228_15_RWD_5_4_Pickup_YBH.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000014",
+        "image": "classified_images\\trucks\\GMC_Canyon_2011_24_16_180_29_4_67_64_nan_18_RWD_6_4_Pickup_WNX.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000015",
+        "image": "classified_images\\trucks\\Ford_F-150_2013_27_17_300_37_6_79_74_nan_17_RWD_3_2_Pickup_GKV.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000016",
+        "image": "classified_images\\trucks\\GMC_Canyon_2016_26_16_200_25_4_74_70_nan_20_RWD_5_4_Pickup_APm.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000017",
+        "image": "classified_images\\trucks\\Nissan_Titan_2015_32_18_310_56_8_79_74_224_13_RWD_6_4_Pickup_KFy.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000018",
+        "image": "classified_images\\trucks\\Toyota_Tacoma_2014_21_15_150_27_4_72_66_208_19_RWD_4_4_Pickup_TAb.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000019",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2009_23_16_180_29_4_67_65_nan_18_RWD_6_4_Pickup_mrk.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000020",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2017_28_17_200_25_4_74_70_nan_20_RWD_5_4_Pickup_QgY.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000021",
+        "image": "classified_images\\trucks\\Ford_F-150_2011_26_17_300_37_6_79_74_nan_17_RWD_3_2_Pickup_QJi.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000022",
+        "image": "classified_images\\trucks\\Ford_F-150_2013_27_17_300_37_6_79_74_nan_17_RWD_3_2_Pickup_qNn.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000023",
+        "image": "classified_images\\trucks\\Chevrolet_Silverado 1500_2016_37_20_280_43_6_80_74_nan_18_RWD_6_4_Pickup_FAY.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000024",
+        "image": "classified_images\\trucks\\Nissan_Titan_2020_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_lFM.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000025",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2009_23_16_180_29_4_67_65_nan_18_RWD_6_4_Pickup_YpW.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000026",
+        "image": "classified_images\\trucks\\Ford_F-150_2015_26_17_280_35_6_79_75_209_18_RWD_3_2_Pickup_biD.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000027",
+        "image": "classified_images\\trucks\\Chevrolet_Silverado 2500HD_2016_53_20_360_60_8_80_78_nan_nan_RWD_5_4_Pickup_PkJ.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000028",
+        "image": "classified_images\\trucks\\Ford_F-150_2015_26_17_280_35_6_79_75_209_18_RWD_3_2_Pickup_kqb.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000029",
+        "image": "classified_images\\trucks\\Toyota_Tacoma_2013_21_15_150_27_4_72_66_nan_19_RWD_4_2_Pickup_uCP.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000030",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2009_23_16_180_29_4_67_65_nan_18_RWD_6_4_Pickup_rAu.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000031",
+        "image": "classified_images\\trucks\\Ford_Ranger_2006_24_16_200_40_6_69_69_nan_16_4WD_3_2_Pickup_Fyv.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000032",
+        "image": "classified_images\\trucks\\GMC_Canyon_2010_23_16_180_29_4_67_65_nan_18_RWD_6_4_Pickup_WFH.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000033",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2015_27_17_200_25_4_74_70_nan_20_RWD_5_4_Pickup_hLe.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000034",
+        "image": "classified_images\\trucks\\GMC_Canyon_2016_26_16_200_25_4_74_70_nan_20_RWD_5_4_Pickup_xfU.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000035",
+        "image": "classified_images\\trucks\\Nissan_Titan_2015_32_18_310_56_8_79_74_224_13_RWD_6_4_Pickup_OFO.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000036",
+        "image": "classified_images\\trucks\\Toyota_Tundra_2013_27_18_270_40_6_79_75_nan_16_RWD_6_4_Pickup_HVW.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000037",
+        "image": "classified_images\\trucks\\Toyota_Tundra_2015_35_18_310_46_8_79_76_228_14_4WD_6_4_Pickup_akH.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000038",
+        "image": "classified_images\\trucks\\Chevrolet_Silverado 2500HD_2020_40_20_400_66_8_81_79_nan_nan_RWD_6_4_Pickup_JwR.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000039",
+        "image": "classified_images\\trucks\\Ford_F-150_2011_26_17_300_37_6_79_74_nan_17_RWD_3_2_Pickup_gij.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000040",
+        "image": "classified_images\\trucks\\Nissan_Titan_2011_32_18_310_56_8_79_74_nan_13_RWD_6_4_Pickup_lrg.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000041",
+        "image": "classified_images\\trucks\\Ford_Ranger_2006_24_16_200_40_6_69_69_nan_16_4WD_3_2_Pickup_hAj.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000042",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2015_27_17_200_25_4_74_70_nan_20_RWD_5_4_Pickup_gpw.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000043",
+        "image": "classified_images\\trucks\\Chevrolet_Colorado_2010_23_16_180_29_4_67_65_nan_18_RWD_6_4_Pickup_fwZ.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000044",
+        "image": "classified_images\\trucks\\Chevrolet_Silverado 2500HD_2011_36_17_360_60_8_80_78_nan_nan_RWD_6_4_Pickup_gQz.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000045",
+        "image": "classified_images\\trucks\\Toyota_Tundra_2019_50_20_380_57_8_79_76_nan_13_4WD_5_4_Pickup_hBW.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000046",
+        "image": "classified_images\\trucks\\Chevrolet_Silverado 1500_2013_33_17_300_48_8_80_73_nan_14_RWD_6_4_Pickup_TNf.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000047",
+        "image": "classified_images\\trucks\\Nissan_Titan_2015_32_18_310_56_8_79_74_224_13_RWD_6_4_Pickup_wCc.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000048",
+        "image": "classified_images\\trucks\\GMC_Canyon_2019_27_16_200_25_4_74_70_nan_20_RWD_5_4_Pickup_ACk.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000049",
+        "image": "classified_images\\trucks\\Ford_F-150_2013_27_17_300_37_6_79_74_nan_17_RWD_3_2_Pickup_sFt.jpg",
+        "vehicle_type": "truck"
+    },
+    {
+        "id": "00000050",
+        "image": "classified_images\\trucks\\GMC_Canyon_2010_23_16_180_29_4_67_65_nan_18_RWD_6_4_Pickup_GTI.jpg",
+        "vehicle_type": "truck"
+    }
+]

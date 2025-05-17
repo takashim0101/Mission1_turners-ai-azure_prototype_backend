@@ -1,0 +1,252 @@
+[
+    {
+        "id": "00000001",
+        "image": "classified_images\\sedans\\Subaru_Legacy_2015_21_17_170_25_4_72_59_188_26_AWD_5_4_4dr_Hac.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000002",
+        "image": "classified_images\\sedans\\Honda_Civic_2019_26_17_170_15_4_70_56_177_31_FWD_5_4_4dr_NtH.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000003",
+        "image": "classified_images\\sedans\\Honda_Accord_2014_26_17_180_24_4_72_56_189_26_FWD_5_2_2dr_ivg.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000004",
+        "image": "classified_images\\sedans\\Mazda_MAZDA3_2013_23_17_150_20_4_69_57_180_28_FWD_5_4_4dr_JXO.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000005",
+        "image": "classified_images\\sedans\\Honda_Accord_2011_25_17_190_24_4_72_56_191_22_FWD_5_2_2dr_vlC.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000006",
+        "image": "classified_images\\sedans\\Nissan_Sentra_2016_18_16_130_18_4_69_58_182_30_FWD_5_4_4dr_UGO.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000007",
+        "image": "classified_images\\sedans\\Kia_Forte_2012_17_15_150_20_4_69_57_178_26_FWD_5_4_4dr_XOb.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000008",
+        "image": "classified_images\\sedans\\Honda_Civic_2012_16_15_140_18_4_69_55_176_nan_FWD_5_2_2dr_scV.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000009",
+        "image": "classified_images\\sedans\\Subaru_Legacy_2019_22_17_170_25_4_72_59_188_25_AWD_5_4_4dr_NJv.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000010",
+        "image": "classified_images\\sedans\\Nissan_Sentra_2011_17_15_140_20_4_70_59_179_27_FWD_5_4_4dr_jPq.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000011",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2012_18_15_140_20_4_68_57_180_27_AWD_5_4_4dr_qgq.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000012",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2011_18_16_170_25_4_68_58_180_20_AWD_5_4_4dr_VeX.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000013",
+        "image": "classified_images\\sedans\\Kia_Forte_2020_21_17_140_20_4_70_56_182_29_FWD_5_4_4dr_prB.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000014",
+        "image": "classified_images\\sedans\\Honda_Accord_2015_26_17_180_24_4_72_56_189_26_FWD_5_2_2dr_AqB.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000015",
+        "image": "classified_images\\sedans\\Kia_Forte_2019_21_17_140_20_4_70_56_182_30_FWD_5_4_4dr_Efm.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000016",
+        "image": "classified_images\\sedans\\Nissan_Altima_2014_22_16_180_25_4_72_57_191_27_FWD_5_4_4dr_ads.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000017",
+        "image": "classified_images\\sedans\\Honda_Accord_2014_26_17_180_24_4_72_56_189_26_FWD_5_2_2dr_yMJ.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000018",
+        "image": "classified_images\\sedans\\Honda_Accord_2015_26_17_180_24_4_72_56_189_26_FWD_5_2_2dr_Zrn.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000019",
+        "image": "classified_images\\sedans\\Toyota_Corolla_2019_18_15_130_18_4_69_57_183_28_FWD_5_4_4dr_xrS.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000020",
+        "image": "classified_images\\sedans\\Honda_Accord_2015_26_17_180_24_4_72_56_189_26_FWD_5_2_2dr_BSB.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000021",
+        "image": "classified_images\\sedans\\Subaru_Legacy_2020_22_17_180_25_4_72_59_190_27_AWD_5_4_4dr_rhc.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000022",
+        "image": "classified_images\\sedans\\Honda_Accord_2013_25_17_180_24_4_72_56_189_26_FWD_5_2_2dr_sTP.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000023",
+        "image": "classified_images\\sedans\\Toyota_Camry_2011_21_16_160_25_4_71_57_189_22_FWD_5_4_4dr_sJI.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000024",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2015_19_15_140_20_4_68_57_180_28_AWD_5_4_4dr_tej.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000025",
+        "image": "classified_images\\sedans\\Honda_Accord_2019_29_17_210_20_4_73_57_192_48_FWD_5_4_4dr_hFS.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000026",
+        "image": "classified_images\\sedans\\Honda_Civic_2014_21_16_140_18_4_69_55_177_29_FWD_5_2_2dr_cpF.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000027",
+        "image": "classified_images\\sedans\\Hyundai_Elantra_2019_21_15_120_14_4_70_56_181_32_FWD_5_4_4dr_MyY.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000028",
+        "image": "classified_images\\sedans\\Nissan_Sentra_2011_17_15_140_20_4_70_59_179_27_FWD_5_4_4dr_sBK.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000029",
+        "image": "classified_images\\sedans\\Toyota_Camry_2014_22_16_170_25_4_71_57_189_25_FWD_5_4_4dr_ujL.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000030",
+        "image": "classified_images\\sedans\\Nissan_Sentra_2020_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_mFF.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000031",
+        "image": "classified_images\\sedans\\Subaru_Legacy_2019_22_17_170_25_4_72_59_188_25_AWD_5_4_4dr_WEu.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000032",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2017_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_HvY.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000033",
+        "image": "classified_images\\sedans\\Honda_Accord_2017_27_18_180_24_4_73_56_189_26_FWD_5_2_2dr_AbV.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000034",
+        "image": "classified_images\\sedans\\Toyota_Camry_2019_28_16_200_25_4_72_56_192_51_FWD_5_4_4dr_DHD.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000035",
+        "image": "classified_images\\sedans\\Honda_Accord_2016_26_18_180_24_4_73_56_189_26_FWD_5_2_2dr_pgk.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000036",
+        "image": "classified_images\\sedans\\Honda_Civic_2012_16_15_140_18_4_69_55_176_nan_FWD_5_2_2dr_whI.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000037",
+        "image": "classified_images\\sedans\\Mazda_MAZDA3_2012_22_17_150_20_4_69_57_180_28_FWD_5_4_4dr_Ogx.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000038",
+        "image": "classified_images\\sedans\\Honda_Accord_2011_25_17_190_24_4_72_56_191_22_FWD_5_2_2dr_qBx.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000039",
+        "image": "classified_images\\sedans\\Toyota_Camry_2017_26_16_200_25_4_71_57_190_42_FWD_5_4_4dr_jJq.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000040",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2017_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_xYS.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000041",
+        "image": "classified_images\\sedans\\Hyundai_Elantra_2011_17_16_140_18_4_69_56_178_28_FWD_5_4_4dr_Tcj.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000042",
+        "image": "classified_images\\sedans\\Toyota_Camry_2012_22_16_170_25_4_71_57_189_25_FWD_5_4_4dr_XxN.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000043",
+        "image": "classified_images\\sedans\\Acura_ILX_2017_27_17_200_24_4_70_55_181_25_FWD_5_4_4dr_XOS.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000044",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2011_18_16_170_25_4_68_58_180_20_AWD_5_4_4dr_BUV.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000045",
+        "image": "classified_images\\sedans\\Honda_Civic_2015_21_16_140_18_4_69_55_177_29_FWD_5_2_2dr_jSM.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000046",
+        "image": "classified_images\\sedans\\Honda_Civic_2019_26_17_170_15_4_70_56_177_31_FWD_5_4_4dr_YqN.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000047",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2019_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_vXQ.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000048",
+        "image": "classified_images\\sedans\\Subaru_Impreza_2017_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_nan_rZs.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000049",
+        "image": "classified_images\\sedans\\Honda_Accord_2019_29_17_210_20_4_73_57_192_48_FWD_5_4_4dr_NfO.jpg",
+        "vehicle_type": "sedan"
+    },
+    {
+        "id": "00000050",
+        "image": "classified_images\\sedans\\Mazda_MAZDA3_2012_22_17_150_20_4_69_57_180_28_FWD_5_4_4dr_oJv.jpg",
+        "vehicle_type": "sedan"
+    }
+]
