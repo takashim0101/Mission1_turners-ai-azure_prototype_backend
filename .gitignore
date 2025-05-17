@@ -3,7 +3,15 @@
 
 touch .gitignore
 
-# Ignore JSON data files
+# Ignore JSON data files for basic separation among sedan, suv and truck
 data/trimmed_minimal_50_id_sedans.json
 data/trimmed_minimal_50_id_suvs.json
 data/trimmed_minimal_50_id_trucks.json
+
+# Ignore JSON data files for basic separation among sedan, suv and truck with brands
+data2/trimmed_extended_50_id_sedans
+data2/trimmed_extended_50_id_suvs
+data2/trimmed_extended_50_id_trucks
+
+# Ignore classified_images directory
+classified_images/
