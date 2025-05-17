@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config(); // Load environment variables
 
 const DATA_PATH = process.env.DATA_PATH || './data'; // Set default path
+const DATA_PATH2 = process.env.DATA_PATH2 || './data2'; // Set default path for extended data
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/'; // Set base URL for images
 
 // Helper function to load vehicle data from local JSON files
@@ -33,6 +34,32 @@ const loadVehicles = (vehicleType) => {
     }
 };
 
+// Helper function to load extended vehicle data from local JSON files
+const loadExtendedVehicles = (vehicleType) => {
+    const filePath = path.join(DATA_PATH2, `trimmed_extended_50_id_${vehicleType}.json`);
+    console.log(`Loading extended vehicle data from: ${filePath}`); // Debug log
+    try {
+        if (!fs.existsSync(filePath)) {
+            throw new Error(`File not found: ${filePath}`);
+        }
+        const data = fs.readFileSync(filePath, 'utf-8');
+        if (!data) {
+            throw new Error('File is empty');
+        }
+        const vehicles = JSON.parse(data);
+        
+        // Update image URLs
+        vehicles.forEach(vehicle => {
+            vehicle.image_url = BASE_URL + vehicle.image.replace(/\\/g, '/').replace('classified_images/', ''); // Fix Windows path separators
+        });
+
+        return vehicles;
+    } catch (error) {
+        console.error(`Error loading extended ${vehicleType} vehicles: ${error.message}`);
+        throw new Error(`Error loading extended ${vehicleType} vehicles from local file: ${error.message}`);
+    }
+};
+
 // Helper function to save vehicle data to local JSON files
 const saveVehicles = (vehicleType, vehicles) => {
     const filePath = path.join(DATA_PATH, `trimmed_minimal_50_id_${vehicleType}.json`);
@@ -46,7 +73,9 @@ const saveVehicles = (vehicleType, vehicles) => {
     }
 };
 
-export { loadVehicles, saveVehicles };
+export { loadVehicles, loadExtendedVehicles, saveVehicles };
+
+
 
 
 
