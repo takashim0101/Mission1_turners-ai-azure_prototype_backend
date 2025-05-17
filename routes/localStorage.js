@@ -4,9 +4,9 @@ import dotenv from 'dotenv';
 
 dotenv.config(); // Load environment variables
 
-const DATA_PATH = process.env.DATA_PATH || './data'; // Set default path
-const DATA_PATH2 = process.env.DATA_PATH2 || './data2'; // Set default path for extended data
-const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/'; // Set base URL for images
+const DATA_PATH = process.env.DATA_PATH || './data'; // Default path
+const DATA_PATH2 = process.env.DATA_PATH2 || './data2'; // Path for extended data
+const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/'; // Base URL for images
 
 // Helper function to load vehicle data from local JSON files
 const loadVehicles = (vehicleType) => {
@@ -24,7 +24,7 @@ const loadVehicles = (vehicleType) => {
         
         // Update image URLs
         vehicles.forEach(vehicle => {
-            vehicle.image_url = BASE_URL + vehicle.image.replace(/\\/g, '/').replace('classified_images/', ''); // Fix Windows path separators
+            vehicle.image_url = BASE_URL + vehicle.image.replace(/\\/g, '/').replace('classified_images/', '');
         });
 
         return vehicles;
@@ -50,7 +50,7 @@ const loadExtendedVehicles = (vehicleType) => {
         
         // Update image URLs
         vehicles.forEach(vehicle => {
-            vehicle.image_url = BASE_URL + vehicle.image.replace(/\\/g, '/').replace('classified_images/', ''); // Fix Windows path separators
+            vehicle.image_url = BASE_URL + vehicle.image.replace(/\\/g, '/').replace('classified_images/', '');
         });
 
         return vehicles;
@@ -62,18 +62,20 @@ const loadExtendedVehicles = (vehicleType) => {
 
 // Helper function to save vehicle data to local JSON files
 const saveVehicles = (vehicleType, vehicles) => {
-    const filePath = path.join(DATA_PATH, `trimmed_minimal_50_id_${vehicleType}.json`);
+    const filePath = path.join(DATA_PATH2, `trimmed_extended_50_id_${vehicleType}.json`); // Use DATA_PATH2
     const data = JSON.stringify(vehicles, null, 2);
 
     try {
         fs.writeFileSync(filePath, data);
-        console.log(`Vehicles saved successfully to ${vehicleType} local file.`);
+        console.log(`Vehicles saved successfully to ${filePath}.`);
     } catch (error) {
         throw new Error(`Error saving ${vehicleType} vehicles to local file: ${error.message}`);
     }
 };
 
 export { loadVehicles, loadExtendedVehicles, saveVehicles };
+
+
 
 
 

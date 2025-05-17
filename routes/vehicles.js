@@ -39,7 +39,9 @@ router.get('/trucks', (req, res) => {
 // Get extended sedan data
 router.get('/extended/sedans', (req, res) => {
     try {
+        console.time("loadExtendedVehicles"); // Start timing
         const extendedSedans = loadExtendedVehicles('sedans'); // Load extended sedan data
+        console.timeEnd("loadExtendedVehicles"); // End timing
         res.json(extendedSedans); // Return data including image_url
     } catch (error) {
         console.error(`Error loading extended sedans: ${error.message}`);
@@ -50,7 +52,9 @@ router.get('/extended/sedans', (req, res) => {
 // Get extended SUV data
 router.get('/extended/suvs', (req, res) => {
     try {
+        console.time("loadExtendedVehicles"); // Start timing
         const extendedSuvs = loadExtendedVehicles('suvs'); // Load extended SUV data
+        console.timeEnd("loadExtendedVehicles"); // End timing
         res.json(extendedSuvs); // Return data including image_url
     } catch (error) {
         console.error(`Error loading extended suvs: ${error.message}`);
@@ -61,7 +65,9 @@ router.get('/extended/suvs', (req, res) => {
 // Get extended truck data
 router.get('/extended/trucks', (req, res) => {
     try {
+        console.time("loadExtendedVehicles"); // Start timing
         const extendedTrucks = loadExtendedVehicles('trucks'); // Load extended truck data
+        console.timeEnd("loadExtendedVehicles"); // End timing
         res.json(extendedTrucks); // Return data including image_url
     } catch (error) {
         console.error(`Error loading extended trucks: ${error.message}`);
@@ -98,7 +104,7 @@ router.post('/sedans', (req, res) => {
         const newSedan = req.body; // Get new sedan data
 
         // Generate image_url
-        const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/'; // Get BASE_URL from environment variables
+        const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/';
         newSedan.image_url = BASE_URL + newSedan.image.replace(/\\/g, '/').replace('classified_images/', '');
         
         sedans.push(newSedan); // Add new data
