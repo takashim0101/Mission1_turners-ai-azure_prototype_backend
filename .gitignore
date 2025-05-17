@@ -1,2 +1,9 @@
 # .gitignore
 .env
+
+touch .gitignore
+
+# Ignore JSON data files
+data/trimmed_minimal_50_id_sedans.json
+data/trimmed_minimal_50_id_suvs.json
+data/trimmed_minimal_50_id_trucks.json
