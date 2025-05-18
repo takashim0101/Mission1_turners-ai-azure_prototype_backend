@@ -3,6 +3,15 @@ import { loadVehicles, loadExtendedVehicles, saveVehicles } from './localStorage
 
 const router = express.Router();
 
+// List of known brand names
+const knownSedanBrands = ["Toyota", "Honda", "Ford", "Chevrolet", "Nissan", "Mazda", "Volkswagen", "Subaru", "Hyundai", "Kia", "Acura"];
+const knownSUVBrands = ["INFINITI", "Porsche", "Buick", "Cadillac", "Toyota", "GMC", "Subaru", "Nissan", "Jeep", "Lexus", "BMW", "Ford", "Chevrolet", "Volkswagen", "Mazda", "Hyundai", "Mercedes-Benz"];
+const knownTruckBrands = ["Ford", "Chevrolet", "Nissan", "GMC", "Toyota"];
+
+// // Helper function
+// const isBrand = (tag, knownBrands) => knownBrands.includes(tag);
+// -------------------- GET ENDPOINTS --------------------
+
 // Get sedan data
 router.get('/sedans', (req, res) => {
     try {
@@ -75,27 +84,8 @@ router.get('/extended/trucks', (req, res) => {
     }
 });
 
-// Get vehicles by brand
-router.get('/by-brand/:brand', (req, res) => {
-    const brand = req.params.brand; // Get brand name
-    try {
-        const allVehicles = [
-            ...loadVehicles('sedans'),
-            ...loadVehicles('suvs'),
-            ...loadVehicles('trucks'),
-        ];
-        const filteredVehicles = allVehicles.filter(vehicle => vehicle.tags && vehicle.tags.includes(brand));
-        
-        if (filteredVehicles.length === 0) {
-            return res.status(404).json({ message: 'No vehicles found for this brand.' });
-        }
-        
-        res.json(filteredVehicles);
-    } catch (error) {
-        console.error(`Error loading vehicles by brand: ${error.message}`);
-        return res.status(500).json({ error: `Failed to load vehicles by brand: ${error.message}` });
-    }
-});
+
+// -------------------- POST ENDPOINTS --------------------
 
 // Add sedan data
 router.post('/sedans', (req, res) => {
@@ -108,7 +98,7 @@ router.post('/sedans', (req, res) => {
         newSedan.image_url = BASE_URL + newSedan.image.replace(/\\/g, '/').replace('classified_images/', '');
         
         sedans.push(newSedan); // Add new data
-        saveVehicles('sedans', sedans); // Save data
+        saveVehicles('sedans', sedans); // Save the updated sedan data
         res.status(201).json(newSedan); // Return the newly created sedan data including image_url
     } catch (error) {
         console.error(`Error saving sedans: ${error.message}`);
@@ -127,7 +117,7 @@ router.post('/suvs', (req, res) => {
         newSuv.image_url = BASE_URL + newSuv.image.replace(/\\/g, '/').replace('classified_images/', '');
         
         suvs.push(newSuv); // Add new data
-        saveVehicles('suvs', suvs); // Save data
+        saveVehicles('suvs', suvs); // Save the updated SUV data
         res.status(201).json(newSuv); // Return the newly created SUV data including image_url
     } catch (error) {
         console.error(`Error saving suvs: ${error.message}`);
@@ -146,7 +136,7 @@ router.post('/trucks', (req, res) => {
         newTruck.image_url = BASE_URL + newTruck.image.replace(/\\/g, '/').replace('classified_images/', '');
         
         trucks.push(newTruck); // Add new data
-        saveVehicles('trucks', trucks); // Save data
+        saveVehicles('trucks', trucks); // Save the updated truck data
         res.status(201).json(newTruck); // Return the newly created truck data including image_url
     } catch (error) {
         console.error(`Error saving trucks: ${error.message}`);
@@ -154,20 +144,62 @@ router.post('/trucks', (req, res) => {
     }
 });
 
+// Add extended sedan data
+router.post('/extended/sedans', (req, res) => {
+    try {
+        const sedans = loadExtendedVehicles('sedans'); // Load current extended sedan data
+        const newSedan = req.body[0]; // Get new sedan data (assuming it's an array)
+
+        // Generate image_url
+        const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/';
+        newSedan.image_url = BASE_URL + newSedan.image.replace(/\\/g, '/').replace('classified_images/', '');
+        
+        sedans.push(newSedan); // Add new data
+        saveVehicles('sedans', sedans); // Save the updated sedan data
+        res.status(201).json(newSedan); // Return the newly created sedan data including image_url
+    } catch (error) {
+        console.error(`Error saving extended sedans: ${error.message}`);
+        return res.status(500).json({ error: `Failed to save extended sedans data: ${error.message}` });
+    }
+});
+
+// Add extended SUV data
+router.post('/extended/suvs', (req, res) => {
+    try {
+        const suvs = loadExtendedVehicles('suvs'); // Load current extended SUV data
+        const newSuv = req.body[0]; // Get new SUV data (assuming it's an array)
+
+        // Generate image_url
+        const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/';
+        newSuv.image_url = BASE_URL + newSuv.image.replace(/\\/g, '/').replace('classified_images/', '');
+        
+        suvs.push(newSuv); // Add new data
+        saveVehicles('suvs', suvs); // Save the updated SUV data
+        res.status(201).json(newSuv); // Return the newly created SUV data including image_url
+    } catch (error) {
+        console.error(`Error saving extended suvs: ${error.message}`);
+        return res.status(500).json({ error: `Failed to save extended suvs data: ${error.message}` });
+    }
+});
+
+// Add extended truck data
+router.post('/extended/trucks', (req, res) => {
+    try {
+        const trucks = loadExtendedVehicles('trucks'); // Load current extended truck data
+        const newTruck = req.body[0]; // Get new truck data (assuming it's an array)
+
+        // Generate image_url
+        const BASE_URL = process.env.BASE_URL || 'http://localhost:3000/images/';
+        newTruck.image_url = BASE_URL + newTruck.image.replace(/\\/g, '/').replace('classified_images/', '');
+        
+        trucks.push(newTruck); // Add new data
+        saveVehicles('trucks', trucks); // Save the updated truck data
+        res.status(201).json(newTruck); // Return the newly created truck data including image_url
+    } catch (error) {
+        console.error(`Error saving extended trucks: ${error.message}`);
+        return res.status(500).json({ error: `Failed to save extended trucks data: ${error.message}` });
+    }
+});
+
 export default router;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

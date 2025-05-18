@@ -1,17 +1,16 @@
 # .gitignore
-.env
+.env  # Ignore environment variable file
 
-touch .gitignore
+# Ignore JSON data files for basic separation among sedan, SUV, and truck
+data/trimmed_minimal_50_id_sedans.json          # Minimal dataset for sedans
+data/trimmed_minimal_50_id_suvs.json             # Minimal dataset for SUVs
+data/trimmed_minimal_50_id_trucks.json           # Minimal dataset for trucks
 
-# Ignore JSON data files for basic separation among sedan, suv and truck
-data/trimmed_minimal_50_id_sedans.json
-data/trimmed_minimal_50_id_suvs.json
-data/trimmed_minimal_50_id_trucks.json
-
-# Ignore JSON data files for basic separation among sedan, suv and truck with brands
-data2/trimmed_extended_50_id_sedans
-data2/trimmed_extended_50_id_suvs
-data2/trimmed_extended_50_id_trucks
+# Ignore JSON data files for basic separation among sedan, SUV, and truck with brands
+data2/trimmed_extended_50_id_sedans              # Extended dataset for sedans with brands
+data2/trimmed_extended_50_id_suvs                 # Extended dataset for SUVs with brands
+data2/trimmed_extended_50_id_trucks               # Extended dataset for trucks with brands
 
 # Ignore classified_images directory
-classified_images/
+classified_images/                                # Directory for classified images
+
